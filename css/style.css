@@ -146,13 +146,15 @@ footer :focus-visible,.red :focus-visible,.blu :focus-visible{outline-color:var(
 .cts a{display:block;padding:22px 26px;border-radius:14px;margin-top:11px;font:800 22px Bricolage;word-break:break-word}
 .cts small{display:block;font:500 15px Figtree;opacity:.85;margin-bottom:4px}
 .home-id{margin-bottom:40px}
-.par img{display:block;border-radius:10px;margin:6px 0 14px;max-width:100%}.par img.lg{background:#fff;padding:12px;max-width:300px}.par img.ph2{width:100%}
+.par img{display:block;border-radius:10px;margin:6px 0 14px;max-width:100%}.par img.lg{background:#fff;padding:12px;max-width:300px}.par .wide.photo{grid-template-columns:1fr 380px}.par .wide.photo img.ph2{width:100%;padding:0;background:none;margin:0}
+.par .wide{grid-column:1/-1;display:grid;grid-template-columns:1fr 190px;gap:30px;align-items:center}.par .wide img{background:#fff;padding:12px;margin:0;width:190px}
+@media(max-width:760px){.par .wide,.par .wide.photo{grid-template-columns:1fr}.par .wide img{width:150px}}
 .prose{max-width:40em;margin:0 0 60px}.prose p{margin-bottom:16px}
 .h2s{font-size:34px;margin:10px 0 24px}
 .hero p.intro{font-size:18px}
 .step figure{margin:18px 0 6px}.duo figure{margin:0}.duo figcaption{font-size:15px;color:#59606c;margin-top:6px}
 .step p{max-width:36em;margin-bottom:14px}
-.par{display:grid;grid-template-columns:1fr 1fr;gap:30px 28px;margin-bottom:60px}
+.par{display:grid;grid-template-columns:1fr;gap:30px 28px;margin-bottom:60px}
 .par .brick{margin-top:11px;padding:28px 30px 20px}.par h2{font-size:28px;margin:6px 0 14px}.par p{margin-bottom:14px;font-size:17px}
 .yr{font:800 14px Figtree;background:rgba(0,0,0,.25);color:#fff;padding:4px 12px;border-radius:99px;display:inline-block}.yel .yr,.pl .yr{background:rgba(0,0,0,.1);color:var(--ink)}
 .idc{padding:26px;margin:11px 0 50px}.idh{display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:center}.idh img{width:100%;border-radius:10px;aspect-ratio:1/1;object-fit:cover}.idh h2{font-size:clamp(30px,4vw,48px);margin-bottom:8px}.idh p{font-size:18px;font-weight:600}
