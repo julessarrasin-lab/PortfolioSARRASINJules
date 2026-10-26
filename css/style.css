@@ -111,6 +111,7 @@ footer :focus-visible,.red :focus-visible,.blu :focus-visible{outline-color:var(
 .card:hover,.row-p:hover{transform:translateY(-3px)}.card,.row-p{transition:transform .15s}
 .card.red .st,.card.blu .st,.row-p.red .st,.row-p.blu .st{background:rgba(0,0,0,.28)}
 .btn:focus-visible{outline-offset:5px}
+.links a.lang{border:2px solid var(--ink);padding:8px 14px;margin-left:6px;font-weight:800}
 a.portrait{display:block;transition:transform .15s}a.portrait:hover{transform:translateY(-3px) rotate(-.6deg)}
 .deco{aspect-ratio:4/3;border-radius:8px;background:#fff;display:grid;place-items:center;padding:20px}
 .deco svg{width:80%;height:auto}

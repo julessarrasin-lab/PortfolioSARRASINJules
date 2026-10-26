@@ -5,7 +5,8 @@ Site statique en HTML, CSS et JavaScript natifs (aucun framework, aucune dépend
 ## Contenu
 - `index.html` : accueil
 - `projets/` : liste des projets, puis une étude de cas par dossier (`pince-canette/`, `vtt-solex/`, `embase-fonte/`)
-- `a-propos/`, `contact/`
+- `a-propos/`, `parcours/`, `carte-identite/`, `contact/`
+- `en/` : la version anglaise du site, avec la même structure que la version française. Un bouton FR / EN dans le menu permet de passer de l'une à l'autre. Pour modifier un texte, il faut le changer dans les deux versions.
 - `css/style.css`, `js/main.js` (met en avant l'étape en cours de lecture dans les études de cas)
 - `images/`, `videos/` (sans le son), `docs/` (plans PDF de l'embase), `fonts/`, `favicon.svg`
 - `.nojekyll` : demande à GitHub Pages de servir les fichiers sans traitement
